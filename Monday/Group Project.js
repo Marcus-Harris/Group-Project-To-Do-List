@@ -29,3 +29,10 @@ function newElement(){
         e.currentTarget.parentNode.remove();
     });
 }
+
+// allows adding tasks to list by hitting enter.
+document.getElementById("myInput").addEventListener("keydown", function (event) {
+    if (event.keyCode === 13) {
+      newElement();
+    }
+  });
