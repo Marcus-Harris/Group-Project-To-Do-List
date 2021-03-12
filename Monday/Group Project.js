@@ -20,7 +20,7 @@ function newElement(){
         else {e.currentTarget.parentNode.style.textDecoration ="none"};
 });
     document.getElementById("myInput").value = "";
-    // creating button to remove shit
+    // creating button to remove stuff
     var rmvButton = document.createElement("button");
     rmvButton.innerHTML = "Remove";
     li.appendChild(rmvButton);
